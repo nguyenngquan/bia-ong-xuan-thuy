@@ -268,7 +268,7 @@ const Footer = () => (
         <div>
           <h3 className="text-lg font-semibold text-white">Liên Hệ</h3>
           <ul className="mt-2 space-y-1 text-sm">
-            <li className="flex items-center gap-2"><MapPin size={16} /> Thôn 3, Xã Xuân Thủy, Huyện Lệ Thủy, Quảng Bình</li>
+            <li className="flex items-center gap-2"><MapPin size={16} /> xã Xuân Hồng, tỉnh Ninh Bình</li>
             <li className="flex items-center gap-2"><Mail size={16} /> contact@biaongxuanthuy.vn</li>
           </ul>
         </div>
@@ -392,7 +392,7 @@ const Products = () => {
     const [modalTitle, setModalTitle] = useState('');
 
     const productList = [
-        { name: 'Bia Mật Ong Truyền Thống', style: 'Honey Lager', abv: '4.5%', image: 'https://placehold.co/600x400/FFB300/4E342E?text=Mật+Ong+Lager', description: 'Vị bia sảng khoái, cân bằng, với hương thơm và vị ngọt dịu tự nhiên từ mật ong hoa rừng Quảng Bình.' },
+        { name: 'Bia Mật Ong Truyền Thống', style: 'Honey Lager', abv: '4.5%', image: 'https://placehold.co/600x400/FFB300/4E342E?text=Mật+Ong+Lager', description: 'Vị bia sảng khoái, cân bằng, với hương thơm và vị ngọt dịu tự nhiên từ mật ong hoa rừng Ninh Bình.' },
         { name: 'Bia Mật Ong Đen', style: 'Honey Dark Lager', abv: '5.5%', image: 'https://placehold.co/600x400/7a5a4b/FFF8E1?text=Mật+Ong+Đen', description: 'Hương thơm nồng nàn của mạch nha rang cháy quyện với vị ngọt sâu lắng của mật ong sẫm màu, tạo nên một trải nghiệm đậm đà khó quên.' },
         { name: 'Xuân Thủy IPA', style: 'India Pale Ale', abv: '6.5%', image: 'https://placehold.co/600x400/f97316/FFF8E1?text=Xuân+Thủy+IPA', description: 'Bùng nổ hương thơm của các loại trái cây nhiệt đới. Vị đắng đặc trưng của hoa bia nhưng rất sảng khoái.' },
         { name: 'Xuân Thủy Pilsner', style: 'Classic Pilsner', abv: '5.0%', image: 'https://placehold.co/600x400/FDE68A/4E342E?text=Pilsner', description: 'Màu vàng rơm trong vắt, hương thơm thanh tao của hoa bia và vị mạch nha giòn tan. Một lựa chọn cổ điển và tinh tế.' },
@@ -441,7 +441,7 @@ const Products = () => {
 const News = () => {
     const newsList = [
         { title: 'Bia Ong Xuân Thủy ra mắt dòng sản phẩm mới: Bia Mật Ong Đen', date: '15 Tháng 7, 2025', excerpt: 'Chúng tôi tự hào giới thiệu dòng bia Mật Ong Đen, một sự kết hợp táo bạo giữa mạch nha rang và mật ong sẫm màu...', image: 'https://placehold.co/800x500/7a5a4b/FFF8E1?text=Sự+Kiện' },
-        { title: 'Lễ hội "Hương Vị Mật Ong" tại Quảng Bình thành công rực rỡ', date: '01 Tháng 7, 2025', excerpt: 'Sự kiện đã thu hút hàng ngàn du khách trong và ngoài tỉnh đến tham quan và thưởng thức các sản phẩm độc đáo từ mật ong...', image: 'https://placehold.co/800x500/f97316/FFF8E1?text=Lễ+Hội' },
+        { title: 'Lễ hội "Hương Vị Mật Ong" tại Ninh Bình thành công rực rỡ', date: '01 Tháng 7, 2025', excerpt: 'Sự kiện đã thu hút hàng ngàn du khách trong và ngoài tỉnh đến tham quan và thưởng thức các sản phẩm độc đáo từ mật ong...', image: 'https://placehold.co/800x500/f97316/FFF8E1?text=Lễ+Hội' },
     ];
     return (
         <div className="bg-amber-50 py-16">
@@ -510,7 +510,7 @@ const Contact = () => {
                 <div className="bg-white p-8 rounded-lg shadow-lg h-full">
                      <h2 className="text-2xl font-bold mb-6 text-stone-800">Thông Tin Liên Lạc</h2>
                      <div className="space-y-4 text-neutral-800">
-                        <p className="flex items-start gap-4"><MapPin className="text-amber-600 mt-1 flex-shrink-0"/><span>Thôn 3, Xã Xuân Thủy, Huyện Lệ Thủy, Tỉnh Quảng Bình, Việt Nam</span></p>
+                        <p className="flex items-start gap-4"><MapPin className="text-amber-600 mt-1 flex-shrink-0"/><span>xã Xuân Hồng, tỉnh Ninh Bình, Việt Nam</span></p>
                         <p className="flex items-center gap-4"><Mail className="text-amber-600 flex-shrink-0"/><span>contact@biaongxuanthuy.vn</span></p>
                         <p className="flex items-center gap-4"><Phone className="text-amber-600 flex-shrink-0"/><span>(0232) 3888 999</span></p>
                      </div>
